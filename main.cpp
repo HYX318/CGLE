@@ -42,7 +42,7 @@ void plot_results(const Vec1D& re, const Vec1D& im,
 int main() {
     try {
         // 初始化模型（空间步数、时间段数、每段步数）
-        CGLE model(20, 80, 200);
+        CGLE model(20, 50000, 200);
         
         // 初始化状态并运行模拟
         model.initialize_state();

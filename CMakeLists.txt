@@ -15,7 +15,7 @@ endif()
 include_directories(
     ${Python3_INCLUDE_DIRS}
     ${Python3_NumPy_INCLUDE_DIRS}
-    "/Users/lagrange/matplotlib-cpp/"  # 替换为你的matplotlibcpp.h所在目录
+    "./matplotlib-cpp/"  # 替换为你的matplotlibcpp.h所在目录
 )
 
 # 添加可执行文件

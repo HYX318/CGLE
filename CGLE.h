@@ -21,7 +21,7 @@ private:
 
 public:
     // 构造函数
-    CGLE(int space_steps = 20, int time_segments = 80, int segment_steps = 200);
+    CGLE(int space_steps = 20, int time_segments = 500, int segment_steps = 200);
     
     // 初始化状态
     void initialize_state();
